@@ -1,12 +1,15 @@
 Package.describe({
   summary: "Write React Components for Meteor in Coffeescript",
   version: "0.0.1",
+  name: "jhartma:cjsx",
   git: "https://github.com/jhartma/meteor-csjx.git"
 });
 
-Package._transitional_registerBuildPlugin({
-  name: "compileCoffeescript",
-  use: [],
+Package.registerBuildPlugin({
+  name: "compileCJSX",
+  use: [
+    'jhartma:react'
+  ],
   sources: [
     'compile-cjsx.js'
   ],
