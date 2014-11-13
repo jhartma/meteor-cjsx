@@ -1,4 +1,5 @@
 # Installation
+    meteor add jhartma:react
     meteor add jhartma:cjsx
 
 # Description
