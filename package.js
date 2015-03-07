@@ -9,9 +9,7 @@ Package.describe({
 
 Package.registerBuildPlugin({
   name: "compileCJSX",
-  use: [
-    'jhartma:react'
-  ],
+  use: [],
   sources: [
     'compile-cjsx.js'
   ],
