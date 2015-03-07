@@ -4,7 +4,7 @@ Package.describe({
   summary: "Write React Components for Meteor in Coffeescript",
   version: coffeeReactVersion,
   name: "jhartma:cjsx",
-  git: "https://github.com/jhartma/meteor-csjx.git"
+  git: "https://github.com/jhartma/meteor-cjsx"
 });
 
 Package.registerBuildPlugin({
