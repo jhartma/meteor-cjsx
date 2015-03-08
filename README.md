@@ -13,3 +13,8 @@ A small meteor package for writing React components in Coffeescript and JSX.
 The plugin is basically a fork of meteor's core coffeescript plugin.
 
 CJSX or '[coffee-react](https://github.com/jsdf/coffee-react-transform)' is a hyrbid of CoffeeScript and JSX.
+
+### Contributors
+[@jhartma](https://github.com/jhartma)
+
+[@hitchcott](https://github.com/hitchcott)
